@@ -4,12 +4,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import Component1 from './components/Component1.jsx';
-import TopAppBar from './components/TopAppBar.jsx';
-import BasicTable from './components/Tables.jsx';
+import CenteredGrid from './components/index.jsx';
 
 var Content = React.createClass({
     render:function render() {
-        return <div><TopAppBar/><BasicTable/></div>;
+        return <div><CenteredGrid/></div>;
     }
 });
 
